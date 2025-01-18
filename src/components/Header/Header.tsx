@@ -3,7 +3,7 @@ import header from "../UI/image/header.png";
 
 const Header = () => {
   return (
-    <div className="bg-gradient-to-br from-purple-950 via-purple-800 to-purple-950 from-purple-850  min-h-screen flex items-center justify-center">
+    <div className="bg-950   min-h-screen flex items-center justify-center">
       <div className="flex">
         <div className="max-w-4xl mt-20 px-6 md:px-12">
           <h1 className="text-2xl md:text-5xl lg:text-6xl font-[Poppins] font-bold text-white leading-tight">

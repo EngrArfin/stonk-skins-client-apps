@@ -93,6 +93,7 @@ const NavBarBelow = () => {
           </Link>
         </div>
       </div>
+      <hr />
     </div>
   );
 };
