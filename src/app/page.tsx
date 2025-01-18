@@ -1,5 +1,5 @@
 import Header from "@/components/Header/Header";
-import NavBar from "@/components/Shared/NavBar";
+import NavBar from "@/components/Shared/NavBar/NavBar";
 
 export default function Home() {
   return (
