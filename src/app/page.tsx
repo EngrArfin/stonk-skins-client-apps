@@ -9,15 +9,17 @@ import Simplyfy from "@/components/Simplyfy/Simplyfy";
 
 export default function Home() {
   return (
-    <div className="min-h-screen ml-[139px] mr-[139px]  bg-purple-950">
+    <div className="min-h-screen lg:ml-[139px] lg:mr-[139px]  bg-purple-950">
       <NavBar />
       <NavBarBelow />
       <Header />
       <CardPage />
-      <Nobody />
-      <LetMeKnow />
-      <Simplyfy />
-      <Footer />
+      <div className="bg-[#1b1b1b]">
+        <Nobody />
+        <LetMeKnow />
+        <Simplyfy />
+        <Footer />
+      </div>
     </div>
   );
 }

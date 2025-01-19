@@ -25,9 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-purple-950">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="bg-purple-950 mt-[65px]">{children}</div>
+        {/* Responsive conditional styles */}
+        <div className="lg:bg-purple-950 lg:mt-[65px]">{children}</div>
       </body>
     </html>
   );

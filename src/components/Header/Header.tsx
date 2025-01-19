@@ -22,7 +22,7 @@ const Header = () => {
           </button>
         </div>
 
-        <div className="mt-[66px]">
+        <div className="mt-[66px] hidden lg:block">
           <Image src={header} alt="Header Graphic" height={455} width={531} />
         </div>
       </div>
